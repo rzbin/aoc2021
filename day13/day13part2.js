@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.readFile('input.txt', (err, buff) => {
+fs.readFile('big.txt', (err, buff) => {
     if (err) {
         console.error(err)
         return
